@@ -2,7 +2,6 @@
 
 use api::Namespace;
 use helpers::{self, CallResult};
-<<<<<<< HEAD
 use types::{
   Address, Block, BlockId, BlockNumber, Bytes, CallRequest,
   H64, H256, H520, Index,
@@ -10,10 +9,6 @@ use types::{
   U256, Work, Log, Filter, SyncState
 };
 use {Transport};
-=======
-use types::{Address, Block, BlockId, BlockNumber, Bytes, CallRequest, H256, H520, H64, Index, SyncState, Transaction, TransactionId, TransactionReceipt, TransactionRequest, U256, Work};
-use Transport;
->>>>>>> master
 
 /// `Eth` namespace
 #[derive(Debug, Clone)]
